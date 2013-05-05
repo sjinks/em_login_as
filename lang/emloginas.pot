@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: vladimir@extrememember.com\n"
-"POT-Creation-Date: 2013-05-05 19:12+0300\n"
+"POT-Creation-Date: 2013-05-05 22:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +17,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../core.php:41
+#: ../core.php:46
 msgid "Log In As a Different User"
 msgstr ""
 
-#: ../core.php:41
+#: ../core.php:46
 msgid "Log In As…"
 msgstr ""
 
-#: ../pages/loginas.php:5
+#: ../core.php:80
+#, php-format
+msgid "Log In As <strong>%s</strong>"
+msgstr ""
+
+#: ../pages/loginas.php:6
 msgid "Log in as:"
 msgstr ""
 
-#: ../pages/loginas.php:16
+#: ../pages/loginas.php:17
 msgid "Log In"
 msgstr ""
