@@ -25,6 +25,8 @@ class EM_LogInAs
 	public function __construct()
 	{
 		if (is_admin()) {
+			load_plugin_textdomain('emloginas', false, 'em_log_in_as/lang');
+
 			add_action('admin_init', array($this, 'admin_init'));
 			add_action('admin_menu', array($this, 'admin_menu'));
 		}
